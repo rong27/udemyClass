@@ -7,12 +7,11 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-div {
-    /* border: 1px dashed green; */
-}
-
-.first-article {
-    border-bottom: 1px solid #bdc3c7;
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     margin-bottom: 20px;
 }
 
@@ -24,7 +23,7 @@ div {
 
 h2 {
     color: #2c3e50;
-    font-size: 0.2rem; 
+    font-size: 2rem; 
 }
 
 
