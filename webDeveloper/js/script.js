@@ -1,4 +1,6 @@
+let firstName = prompt("What is your first name?");
+let lastName = prompt("What is you last name?");
+let age = prompt("How old are you?")
 
-let userName = prompt("What is your name?");
-alert("Nice to meet you, " + userName);
-console.log("Also great to meet you, " + userName);
+console.log("Your full name is " + firstName + " " + lastName +".");
+console.log("You are " + age + " years old.");
